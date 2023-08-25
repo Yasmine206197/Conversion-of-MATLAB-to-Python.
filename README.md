@@ -1,5 +1,5 @@
-# Conversion-of-MATLAB-to-Python.
-Using Sequence to Sequence Model with Attention 
+# Conversion-MATLAB2Python.
+Using Sequence to Sequence Model with Attention --- 
 Dataset preparation: Using ChatGPT, the python data from Facebook Transcoder is converted to MATLAB.  The dataset underwent a number of preprocessing stages, including the addition of spaces before and after punctuation letters, tokenization, the creation of language vocabularies, word embedding and indexing, tensorization, data splitting, and data loading. The data used is only a subset since its size causes the available memory to be exhausted during execution. 
 Model Selection: To compare how attention affects the performance of the model, a sequence-to-sequence model with and without attention is utilised. 
 Model Architecture: The model architecture is made up of an encoder, which records the context of the input sequence and sends it to the decoder, which then constructs the output sequence, and a decoder, which uses the encoded representations as input from the encoder to produce the output sequence. It produces one output sequence element at a time, depending on the previously generated elements and the encoded data.
